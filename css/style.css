@@ -1,0 +1,195 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #ffffff;
+
+}
+
+
+
+.header {
+	background: url(../assets/slider-bg.jpg);
+	background-size: 100% 100%;
+}
+
+
+.navbar {
+	color: white;
+}
+
+.navbar-menu li a {
+	font-size: 0.8725em;
+	border-radius: 20px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.navbar-menu li a:hover {
+	background: #FF4B5A;
+}
+
+.navbar .nav-button {
+	cursor: pointer;
+
+}
+
+
+.nav-mobile-list {
+	color: white;
+	background: #252E30;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+
+/* Body */
+.main-body-container {
+	background: #f2f2f2;
+}
+
+.text h2 {
+	font-size: 2em;
+	color: #323A45;
+	font-weight: 600;
+}
+
+.text span {
+	font-size: 1.5em;
+	color: #FF4B5A;
+	font-weight: 500;
+}
+
+
+.text p {
+	font-size: 1.25em;
+	color: #323A45;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+.text p a {
+	font-size: 0.9em;
+	color: #fff;
+	font-weight: 300;
+	background: #FF4B5A;
+}
+
+
+
+.video .text span {
+	color: #2B985C;
+}
+
+
+
+.video .text p a {
+	background: #29AF61;
+}
+
+.gap {
+	background: #38404a;
+}
+
+/* frank about */
+.about {
+	background: #edebeb;
+
+	color: #746f6f;
+}
+
+
+.about-design {
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+	font-weight: 300;
+}
+
+.about-bottom {
+	text-align: center;
+}
+
+.about-bottom img {
+	cursor: pointer;
+}
+
+.about-bottom h2 {
+	font-family: 'Arvo', 'serif';
+	font-size: 1.5em;
+	font-weight: 300;
+
+}
+
+.about-bottom p {
+	font-family: 'Arvo', 'serif';
+	font-size: 1.0em;
+	line-height: 1;
+
+}
+
+.about-bottom span {
+	font-weight: 800;
+}
+
+
+
+/* feature */
+.feature-container {
+	background: #f2f2f2;
+}
+
+
+
+.download span {
+	background: #2B985C;
+	font-size: 1em;
+	color: #fff;
+	font-weight: 300;
+	cursor: pointer;
+}
+
+/* clients */
+.clients {
+	background: #faf8f8;
+}
+
+.clients .text {
+	text-align: center;
+}
+
+/* pricing */
+.pricing {
+	background: #f1f1f1;
+
+}
+
+
+.table-header p {
+	font-size: 1em;
+	color: #323A45;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+
+.table-header h2 {
+	font-size: 1.7em;
+	color: #323A45;
+	font-weight: 600;
+}
+
+.price-specs ul li {
+	color: #747272;
+	font-size: 1em;
+	text-align: center;
+	display: block;
+	font-weight: 300;
+}
+
+
+.price-specs span {
+	background: #2B985C;
+	font-size: 0.9em;
+	color: #fff;
+	font-weight: 300;
+	cursor: pointer;
+}

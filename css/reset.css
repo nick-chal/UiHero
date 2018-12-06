@@ -1,0 +1,28 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.clearfix:after,
+.clearfix:before {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}

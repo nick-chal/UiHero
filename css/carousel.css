@@ -1,0 +1,58 @@
+.container-wrapper {
+  height: 450px;
+  width: 90%;
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto 0;
+}
+
+.slider {
+  position: absolute;
+  height: 100%;
+}
+
+.slider img {
+  float: left;
+  display: block;
+}
+
+
+.container-wrapper .left-arrow {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.container-wrapper .right-arrow {
+  position: absolute;
+  right: 0;
+  top: 40%;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.dot-container {
+  position: absolute;
+  bottom: 5%;
+  left: 45%;
+}
+
+.dot-container>span {
+  margin: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: .5;
+  background-color: white;
+  cursor: pointer;
+}
+
+.dot-container>span.active-button {
+  background-color: black;
+  opacity: .8;
+}
