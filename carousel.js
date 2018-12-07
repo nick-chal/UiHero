@@ -1,10 +1,10 @@
-function Carousel(element) {
+function Carousel(element, containerName, sliderItem) {
   var slider = element;
   var sliderParent = slider.parentNode;
   var sliderContainer = document.createElement('div');
   var width;
   var height;
-  var images = slider.getElementsByClassName('slider-item');
+  var images = slider.getElementsByClassName(sliderItem);
   var imageNumber = images.length;
   var rightArrow = document.createElement('img');
   var leftArrow = document.createElement('img');
@@ -31,7 +31,7 @@ function Carousel(element) {
     rightArrow = document.createElement('img');
     leftArrow = document.createElement('img');
     dotContainer = document.createElement('div');
-    sliderContainer.classList.add('container-wrapper');
+    sliderContainer.classList.add(containerName);
     rightArrow.classList.add('right-arrow');
     leftArrow.classList.add('left-arrow');
     dotContainer.classList.add('dot-container');
@@ -155,7 +155,7 @@ function Carousel(element) {
     arrowStyler();
     imgStyler();
 
-    speed = 7 - (width % 7);
+    speed = 1;
 
     rightArrow.addEventListener('click', function () {
       buttonSlide(1);
@@ -171,4 +171,6 @@ function Carousel(element) {
 }
 
 var slider = document.getElementsByClassName('slider')[0];
-new Carousel(slider).documentInit();
+var twitterSlider = document.getElementsByClassName('twitter-slider')[0];
+new Carousel(slider, 'container-wrapper', 'slider-item').documentInit();
+// new Carousel(twitterSlider, 'twitter-wrapper', 'content').documentInit();

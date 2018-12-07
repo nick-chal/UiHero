@@ -376,6 +376,19 @@
 
 }
 
+.work-arrow {
+	width: 70%;
+	margin: 0 auto 2.5%;
+	border-bottom: 1px solid gray;
+	padding-bottom: 2%;
+}
+
+.work-arrow img {
+	float: right;
+	padding: 1%;
+	cursor: pointer;
+}
+
 .work-photos {
 	width: 77.197916%;
 	margin: 2% auto;
@@ -560,6 +573,17 @@
 		width: 65%;
 	}
 
+	.work-arrow {
+		width: 45%;
+	}
+
+
+	.work-arrow img {
+		float: right;
+		padding: 1%;
+		width: 5%;
+	}
+
 	.work-photos {
 		width: 50%;
 	}
@@ -709,6 +733,14 @@
 
 	.table:hover {
 		box-shadow: 2px 2px 12px 0 rgba(0, 0, 0, 0.2), -2px -2px 12px 0 rgba(0, 0, 0, 0.2)
+	}
+
+	.work-arrow {
+		width: 75%;
+	}
+
+	.work-arrow img {
+		width: 1%;
 	}
 
 	.work-photos {
