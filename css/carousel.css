@@ -1,6 +1,6 @@
 .container-wrapper {
-  height: 450px;
   width: 90%;
+  padding-bottom: 50%;
   overflow: hidden;
   position: relative;
   margin: 20px auto 0;
@@ -9,9 +9,10 @@
 .slider {
   position: absolute;
   height: 100%;
+  color: #edebeb;
 }
 
-.slider img {
+.slider .slider-item {
   float: left;
   display: block;
 }
@@ -21,8 +22,8 @@
   position: absolute;
   left: 0;
   top: 40%;
-  height: 100px;
-  width: 100px;
+  height: 10%;
+  width: 10%;
   cursor: pointer;
 }
 
@@ -30,8 +31,8 @@
   position: absolute;
   right: 0;
   top: 40%;
-  height: 100px;
-  width: 100px;
+  height: 10%;
+  width: 10%;
   cursor: pointer;
 }
 
@@ -39,6 +40,7 @@
   position: absolute;
   bottom: 5%;
   left: 45%;
+  display: none;
 }
 
 .dot-container>span {
@@ -55,4 +57,22 @@
 .dot-container>span.active-button {
   background-color: black;
   opacity: .8;
+}
+
+@media only screen and (min-width: 480px) {
+  .container-wrapper {
+    width: 90%;
+    padding-bottom: 50%;
+  }
+
+  .dot-container {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container-wrapper {
+    width: 90%;
+    padding-bottom: 35%;
+  }
 }

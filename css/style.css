@@ -193,3 +193,112 @@ body {
 	font-weight: 300;
 	cursor: pointer;
 }
+
+/* works */
+.works-container {
+	background: #fbf8f8;
+
+}
+
+.works-container .text {
+	text-align: center;
+}
+
+
+.hover .hover-content {
+	color: #edebeb;
+	text-align: center;
+}
+
+
+.gap2 {
+	background: #f1f1f1;
+}
+
+/* twitter */
+
+.twitter-container {
+	background: url("../assets/twitter-bg.jpg");
+}
+
+.twitter-container .content {
+	text-align: center;
+	color: white;
+}
+
+
+
+
+.twitter img {
+	display: inline;
+	vertical-align: middle;
+}
+
+.content span {
+	font-size: 0.8em;
+	font-weight: 200;
+	text-align: center;
+}
+
+.content p {
+	font-size: 1.25em;
+}
+
+/* Contact */
+.contact-container {
+	background: #323a45;
+}
+
+.contact {
+	text-align: center;
+}
+
+.contact h2 {
+	font-size: 1.5em;
+	color: #fff;
+	text-transform: uppercase
+}
+
+.contact p {
+	font-size: 1.25em;
+	color: #dad9d9;
+}
+
+
+
+.contact span {
+	padding: 15px 30px;
+	border-radius: 3px;
+	background: #FF4B5A;
+	font-size: 0.8em;
+	color: #fff;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+/* footer */
+.footer {
+	background: #2a3039;
+}
+
+.footer-base {
+	text-transform: uppercase;
+	color: #edebeb;
+}
+
+.social {
+	font-size: 1em;
+}
+
+.social img {
+	vertical-align: middle;
+}
+
+.right-footer {
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.right-footer img {
+	vertical-align: middle;
+}

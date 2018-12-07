@@ -4,7 +4,7 @@ function Carousel(element) {
   var sliderContainer = document.createElement('div');
   var width;
   var height;
-  var images = slider.getElementsByTagName('img');
+  var images = slider.getElementsByClassName('slider-item');
   var imageNumber = images.length;
   var rightArrow = document.createElement('img');
   var leftArrow = document.createElement('img');

@@ -78,10 +78,64 @@
 
 /* Body */
 
+.slider-item {
+	padding: 0%;
+}
+
+.slider-item img {
+	width: 18%;
+	margin-left: 18%;
+}
+
+.slider-item .text {
+	float: right;
+	margin: 10% auto;
+	width: 50%;
+}
+
+.slider-item .text h2 {
+	color: #edebeb;
+	font-size: 1em;
+	font-weight: 400;
+	margin: 0
+}
+
+.slider-item .text p {
+	font-size: .5em;
+	color: #edebeb;
+}
+
+.slider-item .text ul {
+	margin: 4%;
+}
+
+.slider-item .text ul li {
+	font-size: .5em;
+}
+
+.slider-item .text ul li img {
+	vertical-align: middle;
+	max-width: 15px;
+	padding: 0;
+	margin: 0
+}
+
+.slider-item .text .download p {
+	font-size: .75em;
+}
+
+
+.slider-item .text .download p span {
+	margin: 0;
+	padding: 0;
+	color: green;
+	background: none;
+}
+
 .main-body-container {
 	width: 100%;
-
 }
+
 
 /* landing video */
 .landing-video {
@@ -306,12 +360,6 @@
 .price-specs span {
 	padding: 15px 30px;
 	border-radius: 3px;
-	background: #2B985C;
-	font-size: 0.9em;
-	color: #fff;
-	font-weight: 300;
-	cursor: pointer;
-
 }
 
 
@@ -319,12 +367,10 @@
 /* works */
 .works-container {
 	width: 100%;
-	background: #fbf8f8;
 	padding: 9.29% 0;
 }
 
 .works-container .text {
-	text-align: center;
 	width: 77.197916%;
 	margin: 0 auto;
 
@@ -365,7 +411,6 @@
 .hover .hover-content {
 	width: 90%;
 	height: 90%;
-	color: #edebeb;
 	position: absolute;
 	width: 90%;
 	margin: auto;
@@ -374,7 +419,6 @@
 	bottom: 0;
 	right: 0;
 	border: 1px solid #edebeb;
-	text-align: center;
 }
 
 .hover-content p {
@@ -383,7 +427,9 @@
 
 .hover-content img {
 	width: 20%;
-	padding-top: 40%;
+	position: absolute;
+	top: 50%;
+	left: 40%;
 	margin: auto;
 	display: block;
 	cursor: pointer;
@@ -391,7 +437,6 @@
 
 .gap2 {
 	width: 100%;
-	background: #f1f1f1;
 	height: 50px;
 }
 
@@ -400,17 +445,13 @@
 
 .twitter-container {
 	width: 100%;
-	background: url("../assets/twitter-bg.jpg");
 	padding: 7.29% 0;
 	background-size: 100% 100%;
 }
 
 .twitter-container .content {
-	text-align: center;
 	width: 77.197916%;
-
 	margin: auto;
-	color: white;
 }
 
 .content img {
@@ -425,18 +466,9 @@
 .twitter img {
 	max-width: 75px;
 	margin-top: -1%;
-	display: inline;
-	vertical-align: middle;
-}
-
-.content span {
-	font-size: 0.8em;
-	font-weight: 200;
-	text-align: center;
 }
 
 .content p {
-	font-size: 1.25em;
 	padding: 3%;
 }
 
@@ -444,75 +476,49 @@
 .contact-container {
 	width: 100%;
 	padding: 7.29% 0;
-	background: #323a45;
 }
 
 .contact {
 	width: 75.197916%;
-	text-align: center;
 	margin: auto;
 }
 
 .contact h2 {
-	font-size: 1.5em;
-	color: #fff;
 	margin-bottom: 2%;
-	text-transform: uppercase
 }
 
 .contact p {
-	font-size: 1.25em;
 	margin-bottom: 5%;
-	color: #dad9d9;
 }
 
-
-
-.contact span {
-	padding: 15px 30px;
-	border-radius: 3px;
-	background: #FF4B5A;
-	font-size: 0.8em;
-	color: #fff;
-	font-weight: 500;
-	cursor: pointer;
-}
 
 
 /* footer */
 .footer {
 	width: 100%;
-	background: #2a3039;
 	padding: 5% 0;
 }
 
 .footer-base {
 	width: 77.197916%;
 	margin: auto;
-	text-transform: uppercase;
-	color: #edebeb;
 }
 
 .social {
 	margin: auto;
 	text-align: center;
-	font-size: 1em;
 	padding: 3%;
 }
 
 .social img {
-	vertical-align: middle;
 	max-width: 10%;
 }
 
 .right-footer {
 	margin: auto;
-	text-align: center;
-	font-size: 0.8em;
 }
 
 .right-footer img {
-	vertical-align: middle;
 	max-width: 7%;
 }
 
@@ -581,6 +587,31 @@
 		display: block;
 	}
 
+
+	.slider-item .text {
+		margin-right: 5%;
+	}
+
+	.slider-item .text h2 {
+		font-size: 1.75em;
+	}
+
+
+	.slider-item .text p {
+		font-size: 1em;
+		color: #edebeb;
+	}
+
+	.slider-item .text ul li {
+		font-size: 1em;
+		line-height: 1.25em;
+	}
+
+	.slider-item .text .download p {
+		font-size: 1.25em;
+	}
+
+
 	.landing img {
 		width: 47%;
 	}
@@ -615,10 +646,6 @@
 	.landing-video {
 		padding: 7% 0 7%;
 		margin: auto;
-	}
-
-	.landing img {
-		content: url("../assets/imac.png");
 	}
 
 	.about-bottom img {
@@ -663,7 +690,6 @@
 		float: left;
 		vertical-align: text-top;
 		filter: grayscale(100%);
-		/* -webkit-filter: grayscale(100%); */
 	}
 
 	.client-images img:hover {
@@ -753,6 +779,7 @@
 		vertical-align: middle;
 		max-width: 10%;
 	}
+
 
 
 }
