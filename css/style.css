@@ -218,7 +218,8 @@ body {
 /* twitter */
 
 .twitter-container {
-	background: url("../assets/twitter-bg.jpg");
+	background: url("../assets/twitter-bg.jpg") no-repeat;
+	background-size: 100% 100%;
 }
 
 .twitter-container .content {
