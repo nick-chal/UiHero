@@ -8,6 +8,7 @@
 
 .slider {
   position: absolute;
+  width: 300%;
   height: 100%;
   color: #edebeb;
 }
@@ -15,6 +16,7 @@
 .slider .slider-item {
   float: left;
   display: block;
+  width: 33.333333%
 }
 
 

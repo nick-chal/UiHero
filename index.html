@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>UiHero</title>
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/layout.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/carousel.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 </head>
 
 <body>
@@ -20,12 +23,12 @@
 
       <div class="navbar clearfix">
         <ul class="navbar-menu clearfix">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#" class="scroll">STUDIO</a></li>
-          <li><a href="#" class="scroll">WORKS</a></li>
-          <li><a href="#" class="scroll">ABOUT ME</a></li>
-          <li><a href="#" class="scroll">BLOG</a></li>
-          <li><a href="#" class="scroll">Contact</a></li>
+          <li><a href="#header">HOME</a></li>
+          <li><a href="#studio" class="scroll">STUDIO</a></li>
+          <li><a href="#works" class="scroll">WORKS</a></li>
+          <li><a href="#about" class="scroll">ABOUT ME</a></li>
+          <li><a href="#blog" class="scroll">BLOG</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
         </ul>
 
 
@@ -33,17 +36,18 @@
           <img src="assets/burger.png" alt="burger-menu">
         </div>
       </div>
+      <div class="nav-mobile-list">
+        <ul class="nav-list clearfix">
+          <li class="nav-item"><a href="#header">Home</a></li>
+          <li class="nav-item"><a href="#studio">Studio</a></li>
+          <li class="nav-item"><a href="#works">About Me</a></li>
+          <li class="nav-item"><a href="#about">Blog</a></li>
+          <li class="nav-item"><a href="#blog">Works</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="nav-mobile-list">
-      <ul class="nav-list clearfix">
-        <li class="nav-item"><a href="#">Home</a></li>
-        <li class="nav-item"><a href="#">Studio</a></li>
-        <li class="nav-item"><a href="#">About Me</a></li>
-        <li class="nav-item"><a href="#">Blog</a></li>
-        <li class="nav-item"><a href="#">Works</a></li>
-        <li class="nav-item"><a href="#">Contact</a></li>
-      </ul>
-    </div>
+
 
     <div class="slider">
       <div class="slider-item clearfix">
@@ -103,7 +107,7 @@
 
   <!-- Body -->
   <div class="main-body-container">
-    <div class="landing-video">
+    <div class="landing-video" id="studio">
       <div class="landing clearfix">
         <img src="assets/imac.png" alt="iMac Screen">
         <div class="text">
@@ -147,7 +151,7 @@
     </div>
 
 
-    <div class="feature-container">
+    <div class="feature-container" id="blog">
       <div class="feature clearfix">
         <div class="left-content">
           <div class="text">
@@ -259,7 +263,7 @@
     </div>
 
 
-    <div class="works-container">
+    <div class="works-container" id="works">
       <div class="text">
         <h2>Our Works</h2>
       </div>
@@ -362,7 +366,7 @@
     </div>
 
 
-    <div class="contact-container">
+    <div class="contact-container" id="contact">
       <div class="contact">
         <h2>So what do you think?</h2>
         <p>"Good design is all about making other designers feel like idiots because that idea
@@ -384,7 +388,6 @@
         <a href="#"><img src="assets/dribble.png" alt="dribble logo"></a>
         <a href="#"><img src="assets/be.png" alt="be logo"></a>
         <a href="#">/Ayoub <strong>Elred</strong></a>
-        </ul>
       </div>
       <div class="right-footer">
         <img src="assets/copy.png" alt="copyright logo">
@@ -393,12 +396,10 @@
     </div>
   </div>
 
+  <script src="burger.js"></script>
+  <script src="carousel.js"></script>
 
 </body>
 
-<script src="
-              burger.js">
-</script>
-<script src="carousel.js"></script>
 
 </html>

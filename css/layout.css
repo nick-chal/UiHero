@@ -37,6 +37,7 @@
 	float: right;
 	margin-top: 10px;
 
+
 }
 
 .navbar-menu li {
@@ -69,7 +70,7 @@
 
 .nav-mobile-list {
 	width: 77.197916%;
-	margin: 10px auto;
+	margin: 15% auto 0;
 	line-height: 25px;
 	padding: 10px;
 	display: none;

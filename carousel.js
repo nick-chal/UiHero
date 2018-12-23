@@ -56,14 +56,11 @@ function Carousel(element, containerName, sliderItem) {
   }
 
   function sliderStyler() {
-    slider.style.width = (imageNumber * width) + 'px';
+
   }
 
   function imgStyler() {
-    for (var i = 0; i < imageNumber; i++) {
-      images[i].style.height = height + 'px';
-      images[i].style.width = width + 'px';
-    }
+
   }
 
   function arrowStyler() {
@@ -120,6 +117,7 @@ function Carousel(element, containerName, sliderItem) {
   }
 
   function slide() {
+    imageWidth = sliderContainer.offsetWidth;
     slider.style.left = '-' + x + 'px';
     x += (speed * delta);
 
@@ -142,6 +140,7 @@ function Carousel(element, containerName, sliderItem) {
 
   function initiateMovement(timeLimit) {
     checkActiveButton();
+
     mainTimeout = setTimeout(function () {
       mainInterval = setInterval(slide, 4);
     }, timeLimit);
