@@ -16,15 +16,13 @@
 .slider .slider-item {
   float: left;
   display: block;
-  width: 33.333333%
+  width: 33.333333%;
 }
-
 
 .container-wrapper .left-arrow {
   position: absolute;
   left: 0;
   top: 40%;
-  height: 10%;
   width: 10%;
   cursor: pointer;
 }
@@ -33,7 +31,6 @@
   position: absolute;
   right: 0;
   top: 40%;
-  height: 10%;
   width: 10%;
   cursor: pointer;
 }
@@ -45,20 +42,20 @@
   display: none;
 }
 
-.dot-container>span {
+.dot-container > span {
   margin: 5px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   display: inline-block;
-  opacity: .5;
+  opacity: 0.5;
   background-color: white;
   cursor: pointer;
 }
 
-.dot-container>span.active-button {
+.dot-container > span.active-button {
   background-color: black;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 @media only screen and (min-width: 480px) {
@@ -76,5 +73,12 @@
   .container-wrapper {
     width: 90%;
     padding-bottom: 40%;
+  }
+  .container-wrapper .left-arrow {
+    display: inline-block;
+  }
+
+  .container-wrapper .right-arrow {
+    display: inline-block;
   }
 }
